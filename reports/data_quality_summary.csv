@@ -1,0 +1,11 @@
+city,rows,start,end,missing_dates,duplicate_dates,na_temperature_2m_max,na_temperature_2m_min,na_temperature_2m_mean,na_precipitation_sum,na_rain_sum,na_wind_speed_10m_max,na_weather_code,na_relative_humidity_2m_mean,na_surface_pressure_mean,na_cloud_cover_mean,na_dew_point_2m_mean,na_shortwave_radiation_sum,na_et0_fao_evapotranspiration,range_violations,tmax_lt_tmin,tmean_outside_minmax,rain_gt_precip,temp_outliers_robust_z_gt_5,stuck_runs_5d
+cairo,13081,1991-01-01,2026-10-24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0
+delhi,13081,1991-01-01,2026-10-24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1
+london,13081,1991-01-01,2026-10-24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0
+mumbai,13081,1991-01-01,2026-10-24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,2
+nairobi,13081,1991-01-01,2026-10-24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0
+new_york,13081,1991-01-01,2026-10-24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
+sao_paulo,13081,1991-01-01,2026-10-24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+singapore,13081,1991-01-01,2026-10-24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,2
+sydney,13081,1991-01-01,2026-10-24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0
+ulaanbaatar,13081,1991-01-01,2026-10-24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0

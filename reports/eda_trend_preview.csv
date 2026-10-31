@@ -1,0 +1,11 @@
+city,trend_C_per_decade,p_value
+Delhi,-0.005,0.955
+Sao Paulo,0.034,0.659
+Mumbai,0.128,0.006
+Singapore,0.152,0.0
+Nairobi,0.195,0.0
+Sydney,0.203,0.002
+Ulaanbaatar,0.298,0.01
+London,0.399,0.0
+New York,0.403,0.001
+Cairo,0.78,0.0

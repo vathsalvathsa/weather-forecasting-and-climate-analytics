@@ -1,0 +1,63 @@
+{
+  "cities": [
+    "Cairo",
+    "Delhi",
+    "London",
+    "Mumbai",
+    "Nairobi",
+    "New York",
+    "Sao Paulo",
+    "Singapore",
+    "Sydney",
+    "Ulaanbaatar"
+  ],
+  "n_rows": 130810,
+  "columns": [
+    "city",
+    "country",
+    "region",
+    "lat",
+    "lon",
+    "elevation_m",
+    "timezone",
+    "date",
+    "temperature_2m_max",
+    "temperature_2m_min",
+    "temperature_2m_mean",
+    "precipitation_sum",
+    "rain_sum",
+    "wind_speed_10m_max",
+    "weather_code",
+    "relative_humidity_2m_mean",
+    "surface_pressure_mean",
+    "cloud_cover_mean",
+    "dew_point_2m_mean",
+    "shortwave_radiation_sum",
+    "et0_fao_evapotranspiration",
+    "split"
+  ],
+  "splits": {
+    "gap": {
+      "rows": 140,
+      "from": "2017-12-25",
+      "to": "2020-12-31"
+    },
+    "test": {
+      "rows": 21230,
+      "from": "2021-01-01",
+      "to": "2026-10-24"
+    },
+    "train": {
+      "rows": 98550,
+      "from": "1991-01-01",
+      "to": "2017-12-24"
+    },
+    "val": {
+      "rows": 10890,
+      "from": "2018-01-01",
+      "to": "2020-12-24"
+    }
+  },
+  "source": "Open-Meteo Historical Weather API (ERA5 reanalysis), CC BY 4.0",
+  "note": "ERA5 is a reanalysis (model product), not station observations; weather_code is model-derived."
+}
