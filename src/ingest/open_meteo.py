@@ -57,6 +57,7 @@ def fetch_daily(lat: float, lon: float, start: str, end: str, variables: list):
         "end_date": end,
         "daily": ",".join(variables),
         "timezone": "auto",
+        "models": config.ARCHIVE_MODEL,
     }
     data = _get(config.ARCHIVE_URL, params)
     df = pd.DataFrame(data["daily"]).rename(columns={"time": "date"})

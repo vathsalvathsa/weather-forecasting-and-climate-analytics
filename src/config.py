@@ -20,6 +20,9 @@ ARCHIVE_LAG_DAYS = 7
 
 ARCHIVE_URL = "https://archive-api.open-meteo.com/v1/archive"
 GEOCODING_URL = "https://geocoding-api.open-meteo.com/v1/search"
+# ONE reanalysis for the whole period. The default ("best_match") silently changes
+# source around 2017, which breaks comparisons across time.
+ARCHIVE_MODEL = "era5"
 
 # Variables we are confident exist; the probe script checks the optional ones.
 CORE_DAILY = [
