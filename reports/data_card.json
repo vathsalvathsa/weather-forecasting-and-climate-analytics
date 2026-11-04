@@ -11,7 +11,7 @@
     "Sydney",
     "Ulaanbaatar"
   ],
-  "n_rows": 130810,
+  "n_rows": 130841,
   "columns": [
     "city",
     "country",
@@ -43,9 +43,9 @@
       "to": "2020-12-31"
     },
     "test": {
-      "rows": 21230,
+      "rows": 21261,
       "from": "2021-01-01",
-      "to": "2026-10-24"
+      "to": "2026-10-28"
     },
     "train": {
       "rows": 98550,

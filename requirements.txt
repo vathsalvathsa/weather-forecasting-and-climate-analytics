@@ -9,3 +9,4 @@ plotly>=5.18
 jupyter>=1.0
 # Pin exact versions with `pip freeze` once your environment works (reproducibility).
 scikit-learn>=1.4
+streamlit>=1.30
