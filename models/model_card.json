@@ -1,0 +1,105 @@
+{
+  "created": "2026-11-07",
+  "sklearn": "1.9.1",
+  "data": "ERA5 reanalysis via Open-Meteo (models=era5), daily, 10 cities, 1991-2026",
+  "trained_on": "1991-01-01 to 2020-12-24 (train + validation)",
+  "scored_once_on": "2021-01-01 to 2026-10 (test)",
+  "location_features": false,
+  "pooled_test_results": [
+    {
+      "target": "rh",
+      "horizon": 1,
+      "MAE_climatology": 6.9812,
+      "MAE_damped": 4.974,
+      "MAE_final": 4.6487,
+      "gain_over_damped_%": 14.2587,
+      "skill_vs_climatology": 0.5269
+    },
+    {
+      "target": "rh",
+      "horizon": 3,
+      "MAE_climatology": 6.9803,
+      "MAE_damped": 6.4906,
+      "MAE_final": 6.3841,
+      "gain_over_damped_%": 2.7882,
+      "skill_vs_climatology": 0.1413
+    },
+    {
+      "target": "tmax",
+      "horizon": 1,
+      "MAE_climatology": 2.3958,
+      "MAE_damped": 1.736,
+      "MAE_final": 1.5744,
+      "gain_over_damped_%": 18.9598,
+      "skill_vs_climatology": 0.5418
+    },
+    {
+      "target": "tmax",
+      "horizon": 3,
+      "MAE_climatology": 2.395,
+      "MAE_damped": 2.2633,
+      "MAE_final": 2.1875,
+      "gain_over_damped_%": 5.9336,
+      "skill_vs_climatology": 0.1414
+    },
+    {
+      "target": "tmean",
+      "horizon": 1,
+      "MAE_climatology": 1.8163,
+      "MAE_damped": 1.1525,
+      "MAE_final": 1.0108,
+      "gain_over_damped_%": 24.6413,
+      "skill_vs_climatology": 0.6633
+    },
+    {
+      "target": "tmean",
+      "horizon": 3,
+      "MAE_climatology": 1.8156,
+      "MAE_damped": 1.6685,
+      "MAE_final": 1.5899,
+      "gain_over_damped_%": 8.6076,
+      "skill_vs_climatology": 0.1895
+    },
+    {
+      "target": "tmin",
+      "horizon": 1,
+      "MAE_climatology": 1.8704,
+      "MAE_damped": 1.3016,
+      "MAE_final": 1.0705,
+      "gain_over_damped_%": 31.3319,
+      "skill_vs_climatology": 0.64
+    },
+    {
+      "target": "tmin",
+      "horizon": 3,
+      "MAE_climatology": 1.8699,
+      "MAE_damped": 1.737,
+      "MAE_final": 1.6219,
+      "gain_over_damped_%": 11.0282,
+      "skill_vs_climatology": 0.1972
+    },
+    {
+      "target": "wind",
+      "horizon": 1,
+      "MAE_climatology": 3.6116,
+      "MAE_damped": 3.1915,
+      "MAE_final": 3.0883,
+      "gain_over_damped_%": 6.7781,
+      "skill_vs_climatology": 0.2527
+    },
+    {
+      "target": "wind",
+      "horizon": 3,
+      "MAE_climatology": 3.6117,
+      "MAE_damped": 3.568,
+      "MAE_final": 3.533,
+      "gain_over_damped_%": 1.5457,
+      "skill_vs_climatology": 0.0367
+    }
+  ],
+  "limitations": [
+    "ERA5 is a reanalysis, not station data",
+    "local history only: skill fades after about 3 days",
+    "inputs at prediction time must come from the same source as training"
+  ]
+}
