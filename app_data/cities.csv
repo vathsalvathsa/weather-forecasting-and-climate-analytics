@@ -1,0 +1,11 @@
+city,country,region,lat,lon,elevation_m
+Cairo,Egypt,Africa,30.0,31.25,29.0
+Delhi,India,Asia,28.5,77.25,217.0
+London,UK,Europe,51.5,-0.25,29.0
+Mumbai,India,Asia,19.0,73.0,9.0
+Nairobi,Kenya,Africa,-1.25,36.75,1668.0
+New York,USA,North America,40.75,-74.0,27.0
+Sao Paulo,Brazil,South America,-23.5,-46.75,737.0
+Singapore,Singapore,Asia,1.5,103.75,39.0
+Sydney,Australia,Oceania,-33.75,151.0,69.0
+Ulaanbaatar,Mongolia,Asia,48.0,107.0,1290.0
