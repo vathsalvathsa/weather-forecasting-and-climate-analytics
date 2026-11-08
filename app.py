@@ -190,23 +190,20 @@ def page_comparison():
     st.plotly_chart(fig)
 
 
-# ---------------------------------------------------------------- Pages under construction
+# ---------------------------------------------------------------- Data-driven pages
 def page_ml():
-    st.title("ML Predictions")
-    st.info("Under construction: next-day predictions from this project's own trained models "
-            "will appear here, clearly separated from the API forecasts.")
+    from app_pages import ml_page
+    ml_page.render()
 
 
 def page_climate():
-    st.title("Climate Analytics")
-    st.info("Under construction: long-term trends, seasonal patterns and anomalies from ERA5 reanalysis. "
-            "Short-term weather forecasts and long-term climate analysis will be kept separate.")
+    from app_pages import climate_page
+    climate_page.render()
 
 
 def page_performance():
-    st.title("Model Performance")
-    st.info("Under construction: evaluation results (error, skill vs baselines, calibration) "
-            "will be shown here once the final models are trained. No results are shown until then.")
+    from app_pages import performance_page
+    performance_page.render()
 
 
 # ---------------------------------------------------------------- Static pages
