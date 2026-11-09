@@ -174,6 +174,18 @@ Leave-cities-out test on the validation years: train on 9 cities, score the 10th
   0.030 at 3 days; wind at 3 days improves 1.9% over the damped baseline. Skill beyond about 1 to 2 days is essentially gone for rain and wind.
 - **New cities are much harder.** For 1-day mean temperature the average gain is 21.6% for cities the model trained on and 9.5% when the city is held out of training (measured on the validation years). Whatever the gap, the ML predictions are validated for the 10 training cities only.
 
+## Application screenshots
+
+![1 Live Dashboard](docs/screenshots/1_Live_Dashboard.png)
+
+![2 City  Comparison](docs/screenshots/2_City _Comparison.png)
+
+![3 Model Prediction](docs/screenshots/3_Model_Prediction.png)
+
+![4 Model Performance](docs/screenshots/4_Model_Performance.png)
+
+![5 Climate Analytics](docs/screenshots/5_Climate_Analytics.png)
+
 ## Limitations
 
 - ERA5 is a gridded reanalysis, not station observations; rainfall in particular differs from gauge data.
