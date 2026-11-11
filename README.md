@@ -1,7 +1,7 @@
 # Weather Forecasting and Climate Analytics
 
 Machine-learning weather prediction and climate analytics on ERA5 reanalysis data, with a Streamlit dashboard.
-M.Tech Data Science & Analytics project by Sundram Vaths.
+M.Tech Data Science & Analytics project by Sundram Vaths
 
 **Live app:** not deployed yet
 
