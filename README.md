@@ -5,7 +5,7 @@ M.Tech Data Science & Analytics project by Sundram Vaths.
 
 **Live app:** not deployed yet
 
-## Overview.
+## Overview
 
 The project combines three things that are deliberately kept apart in the app:
 
